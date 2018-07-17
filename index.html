@@ -1,44 +1,51 @@
-<!DOCTYPE html>
-<html>
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8" />
+    <title>Amit Meher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="assets/css/particleground_css.css">
+    <!-- remember, jQuery is completely optional -->
+    <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+    <script type='text/javascript' src='../jquery.particleground.min.js'></script>
+    <script type='text/javascript' src='js/demo.js'></script>
 </head>
+
 <body>
-	<h1>Hello World!</h1>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/speechkitt.min.js"></script>
-<script>
-if (annyang) {
-  // Add our commands to annyang
-  annyang.addCommands({
-    'hello': function() { alert('Hello world!'); }
-  });
 
-  // Tell KITT to use annyang
-  SpeechKITT.annyang();
+    <div id="particles" class="container1">
+        <div id="intro">
+            <div class="logo">
+                <span class="icon fa-diamond"></span>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <h1><b>Amit Meher</b></h1>
+                    <p>Founder of TechMinions.in, Tech Lover, Gamer.</p>
+                </div>
+            </div>
+            <div class="social">
+                    <h4>Find me on social media</h4>
+                    <a href="https://www.facebook.com/HaveliBoy"><img src="Logos/Facebook.png" alt="fb" height="50px"></a>
+                    <a href="https://twitter.com/ImAmIt98"><img src="Logos/twitter.png" alt="twitter" height="50px"></a>
+                    <a href="https://www.instagram.com/haveli_boy/"><img src="Logos/instagram.png" alt="instagram" height="50px"></a>
+                </div>
 
-  // Define a stylesheet for KITT to use
-  SpeechKITT.setStylesheet('https://cdnjs.cloudflare.com/ajax/libs/SpeechKITT/0.3.0/themes/flat.css');
+        </div>
+    </div>
+ 
 
-  // Render KITT's interface
-  SpeechKITT.vroom();
-}
-</script>
-<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
-<script>
-if (annyang) {
-  // Let's define a command.
-  var commands = {
-    'hello': function() { alert('Hello world!'); }
-  };
 
-  // Add our commands to annyang
-  annyang.addCommands(commands);
-
-  // Start listening.
-  annyang.start();
-}
-</script> -->
+<script src="assets/js/demo.js"></script>
+    <script src="assets/js/jquery.particleground.min.js"></script>
 
 </body>
 </html>
+
